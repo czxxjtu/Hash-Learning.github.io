@@ -58,8 +58,8 @@
 	* Liu et al. Discrete Graph Hashing [*NIPS*], 2014
 * Circulant Binary Embedding (CBE) \[[paper](http://www.felixyu.org/cbe.html)\]\[[code](http://www.felixyu.org/cbe.html)\]\[[slide](http://www.felixyu.org/cbe.html)\]
 	* Yu et al. Circulant Binary Embedding [*ICML*], 2014
-* Locality Linear Hashing (LLH) \[[paper](http://www.ee.columbia.edu/~xmwu/publications.html)\]\[[supplemental](http://www.ee.columbia.edu/~xmwu/publications.html)\]
-	* Irie et al. Locality Linear Hashing for Extracting Non-Linear Manifolds [*CVPR*],2014
+* Locality Linear Hashing (LLH) \[[paper](http://www.ee.columbia.edu/~xmwu/publications.html)\]\[[supplementary](http://www.ee.columbia.edu/~xmwu/publications.html)\]
+	* Irie et al. Locality Linear Hashing for Extracting Non-Linear Manifolds [*CVPR*], 2014
 * Scalable Graph Hashing (SGH) \[[paper](http://cs.nju.edu.cn/lwj/paper/IJCAI15_SGH.pdf))\]\[[code](http://cs.nju.edu.cn/lwj/code/SGH.rar)\]
 	* Jiang and Li. Scalable Graph Hashing with Feature Transformation [*IJCAI*], 2015
 
@@ -67,24 +67,65 @@
 
 #### Ranking-based Hashing
 
-#### Multimodal Hashing
+* Hamming Distance Metric Learning (HDML) \[[paper](http://papers.nips.cc/paper/4808-hamming-distance-metric-learning.pdf)\] \[[code](https://github.com/norouzi/hdml)\]
+	* Mohammad Norouzi, David J. Fleet, Ruslan Salakhutdinov. [*NIPS*], 2012
+* Learning Hash Functions Using Column Generation (CGH)  \[[paper](http://www.jmlr.org/proceedings/papers/v28/li13a.pdf)\]\[[code](https://bitbucket.org/ningche001/column-generation-hashing/src/8d1c53f219cfc2b2f38e407079776e4f62c3dc89/CGHash/?at=master)\]
+	* Xi Li, Guosheng Lin,Chunhua Shen,Anton van den Hengel,Anthony Dick. [*ICML*], 2013
+* Order preserving Hashing for Approximate Nearest Neighbor Search (OPH) \[[paper](http://research.microsoft.com/en-us/um/people/jingdw/pubs%5CACMMM13-OrderPreservingHashing.pdf)\]
+	* Jianfeng Wang, Jingdong Wang, and Nenghai Yu,Shipeng Li. [*ACM MM*], 2013
+* Learning Hash Codes with Listwise Supervision (RSH) \[[paper](http://www.ee.columbia.edu/~wliu/ICCV13_rankhash.pdf)\]
+	* Jun Wang, Wei Liu,Andy X. Sun,Yu-Gang Jiang. [*ICCV*], 2013
+* Optimizing Ranking Measures for Compact Binary Code Learning (StructHash) \[[paper](http://link.springer.com/chapter/10.1007%2F978-3-319-10578-9_40)\]
+	* Guosheng Lin, Chunhua Shen, Jianxin Wu. [*ECCV*], 2014	
+* Ranking Preserving Hashing for Fast Similarity Search (RPH) \[[paper](http://ijcai.org/papers15/Papers/IJCAI15-549.pdf)\]
+	* Qifan Wang,  Zhiwei Zhang,Luo Si. [*IJCAI*], 2015	
 
+#### Multimodal Hashing
+* Composite Hashing (CHMIS-AW) \[[paper](https://www.cs.purdue.edu/homes/lsi/SIGIR_2011B.pdf)\]
+	* Zhang et al. Composite Hashing with Multiple Information Sources [*ACM SIGIR*], 2011
+* Cross View Hashing (CVH) \[[paper](http://research.microsoft.com/pubs/151205/ijcai11.pdf)\]
+	* Kumar and Udupa. Learning hash functions for cross-view similarity search [*IJCAI*], 2011
+* Co-Regularized Hashing (CRH) \[[paper](http://papers.nips.cc/paper/4793-co-regularized-hashing-for-multimodal-data.pdf)\]
+	* Zhen and Yeung. Co-Regularized Hashing for Multimodal Data [*NIPS*], 2012
+* Inter-Media Hashing (IMH) \[[paper](http://dl.acm.org/citation.cfm?id=2465274)\]
+	* Song et al. Inter-Media Hashing for Large-Scale Retrieval from Heterogeneous Data Sources. [*SIGMOD*], 2013
+* Relation-aware Heterogeneous Hashing (RaHH) \[[paper](http://media.cs.tsinghua.edu.cn/~multimedia/cuipeng/papers/HeterogeneousHashing.pdf)\] 
+	* Ou et al. Comparing apples to oranges: a scalable solution with heterogeneous hashing [*KDD*], 2013
+* Semantic Correlation Maximization (SCM) \[[paper](http://cs.nju.edu.cn/lwj/paper/AAAI14_SCM.pdf)\]\[[code](http://cs.nju.edu.cn/lwj/code/SCMHash_Release.zip)\]
+	* Zhang and Li. Large-scale supervised multimodal hashing with semantic correlation maximization [*AAAI*], 2014
+* Collective Matrix Factorization Hashing (CMFH) \[[paper](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6909664&tag=1)\]
+	* Ding et al. Collective Matrix Factorization Hashing for Multimodal data [*CVPR*], 2014
+* Quantized Correlation Hashing (QCH) \[[paper](http://ijcai.org/papers15/Papers/IJCAI15-554.pdf)\]
+	* Wu et al. Quantized correlation hashing for fast cross-modal search [*IJCAI*], 2015
+* Semantic Topic Multimodal Hashing (STMH) \[[paper](http://ijcai.org/papers15/Papers/IJCAI15-546.pdf)\]
+	* Wang et al. Semantic Topic Multimodal Hashing for Cross-Media Retrieval [*IJCAI*], 2015
+* Semantics-Preserving Hashing (SePH) \[[paper](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Lin_Semantics-Preserving_Hashing_for_2015_CVPR_paper.pdf)\]
+	* Lin et al. Semantics-Preserving Hashing for Cross-View Retrieval [*CVPR*], 2015
 #### Deep Hashing
 
 #### Online Hashing
 
 #### Quantization
 
+* Double-Bit Quantization for Hashing (DBQ) \[[paper](http://cs.nju.edu.cn/lwj/paper/AAAI12_DBQ.pdf)\] \[[code](http://cs.nju.edu.cn/lwj/code/DBQ.rar)\]
+	* Weihao Kong, Wu-Jun Li. [*AAAI*], 2012
+* Manhattan hashing for large-scale image retrieval (MQ) \[[paper](http://cs.nju.edu.cn/lwj/paper/SIGIR12_MH.pdf)\] \[[code](http://cs.nju.edu.cn/lwj/code/MH.rar)\]
+	* Weihao Kong, Wu-Jun Li,Minyi Guo. [*SIGIR*], 2012
+* Variable Bit Quantisation for LSH \[[paper](http://homepages.inf.ed.ac.uk/miles/papers/acl13.pdf)\] 
+	* Sean Moran, Victor Lavrenko,Miles Osborne. [*ACL*], 2013
+* Hamming Compatible Quantization for Hashing  \[[paper](http://ijcai.org/papers15/Papers/IJCAI15-325.pdf)\] 
+	* Sean Moran, Victor Lavrenko,Miles Osborne. [*ACL*], 2013
+
 ## Dataset
 ---
 
-### MIR-FLICKR
+### MIR-FLICKR-25k  \[[dataset](http://press.liacs.nl/mirflickr/mirdownload.html)\]
 
-### NUS-WIDE 
+### NUS-WIDE  \[[dataset](http://lms.comp.nus.edu.sg/research/NUS-WIDE.htm)\]
 
-### TINY
+### TINY \[[dataset](http://groups.csail.mit.edu/vision/TinyImages/)\]
 
-### CIFAR
+### CIFAR  \[[dataset](https://www.cs.toronto.edu/~kriz/cifar.html)\]
 
 ### WIKI
 
