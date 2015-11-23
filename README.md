@@ -111,6 +111,20 @@
 	* Lin et al. Semantics-Preserving Hashing for Cross-View Retrieval [*CVPR*], 2015
 	
 ### Deep Hashing
+* Supervised Hashing via Image Representation Learning(CNNH) \[[paper](http://ss.sysu.edu.cn/~py/papers/AAAI-CNNH.pdf)\]\[[code](http://ss.sysu.edu.cn/~py/CNNH/cnnh.html)\]\[[slide](http://ss.sysu.edu.cn/~py/CNNH-slides.pdf)]
+	* Rongkai Xia , Yan Pan, Hanjiang Lai, Cong Liu, and Shuicheng Yan. [*AAAI*], 2014
+* Bit-Scalable Deep Hashing With Regularized Similarity Learning for Image Retrieval and Person Re-Identification(DRSCH) \[[paper](http://arxiv.org/pdf/1508.04535v2.pdf)\]\[[code](https://github.com/ruixuejianfei/BitScalableDeepHash)\]
+	* Ruimao Zhang, Liang Lin, Rui Zhang, Wangmeng Zuo, and Lei Zhang. [*TIP*], 2015
+* Convolutional Neural Networks for Text Hashing(THC) \[[paper](http://ijcai.org/papers15/Papers/IJCAI15-197.pdf)\]
+	* Jiaming Xu, PengWang, Guanhua Tian, Bo Xu, Jun Zhao, Fangyuan Wang, Hongwei Hao. [IJCAI], 2015
+* Simultaneous Feature Learning and Hash Coding with Deep Neural Networks(NINH) \[[paper](http://arxiv.org/pdf/1504.03410v1.pdf)\]
+	* Hanjiang Lai, Yan Pan, Ye Liu, and Shuicheng Yan. [*CVPR*], 2015
+* Deep Semantic Ranking Based Hashing for Multi-Label Image Retrieval(DSRH) \[[paper](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Zhao_Deep_Semantic_Ranking_2015_CVPR_paper.pdf)\]\[[code](https://github.com/zhaofang0627/cuda-convnet-for-hashing)\]
+	* Fang Zhao, Yongzhen Huang, Liang Wang, and Tieniu Tan. [*CVPR*], 2015
+* Deep Hashing for Compact Binary Codes Learning(DH) \[[paper](https://sites.google.com/site/elujiwen/CVPR15b.pdf?attredirects=0&d=1)\]
+	* Venice Erin Liong, Jiwen Lu, Gang Wang, Pierre Moulin, and Jie Zhou. [*CVPR*], 2015
+* Deep Learning of Binary Hash Codes for Fast Image Retrieval(HDS) \[[paper](http://www.iis.sinica.edu.tw/~kevinlin311.tw/cvprw15.pdf)\]\[[code](https://github.com/kevinlin311tw/caffe-cvprw15)\]\[[questions](http://www.iis.sinica.edu.tw/~kevinlin311.tw/deephash_questions.txt)\]
+	* Kevin Lin, Huei-Fang Yang, Jen-Hao Hsiao, and Chu-Song Chen. [*CVPRW*], 2015
 
 ### Online Hashing
 
