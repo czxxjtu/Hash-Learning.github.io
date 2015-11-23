@@ -17,11 +17,11 @@
 	- [WIKI](#wiki)
 
 ## Introduction
+---
 
 ## Categories
-
+---
 ### Data-Independent Method
-
 * Ginois et al.,1999. Similarity Search in High Dimensions via Hashing. \[[paper](http://www.cs.princeton.edu/courses/archive/spring13/cos598C/Gionis.pdf)\]
 * Andoni and Indyk, 2008. Near-optimal hashing algorithms for approximate nearest neighbor in high dimensions. \[[paper](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4031381)\]
 * Datar et al., Locality-Sensitive Hashing Scheme Based on p-Stable Distributions \[[paper](http://dl.acm.org/citation.cfm?id=997857)\]
@@ -44,6 +44,7 @@
 #### Quantization
 
 ## Dataset
+---
 
 ### MIR-FLICKR-25k
 
