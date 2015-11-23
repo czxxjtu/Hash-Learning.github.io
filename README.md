@@ -1,4 +1,5 @@
 # Table of contents
+---
  - [Introduction](#introduction) 
  - [Categories](#categories)	
 	 - [Data-Independent Method](#data-independent-method)	 
@@ -24,12 +25,12 @@
 	 - [Imagenet](#imagenet)
 	 - [SIFT-1M](#sift-1m)
 
-## Introduction
+# Introduction
 ---
 
-## Categories
+# Categories
 ---
-### Data-Independent Method
+## Data-Independent Method
 * Locality-Sensitive Hashing
 	* Gionis et al.,1999. Similarity Search in High Dimensions via Hashing. \[[paper](http://www.cs.princeton.edu/courses/archive/spring13/cos598C/Gionis.pdf)\]
 	* Andoni and Indyk, 2008. Near-optimal hashing algorithms for approximate nearest neighbor in high dimensions. \[[paper](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4031381)\]
@@ -40,9 +41,9 @@
 * Shift Invariant Kernel Hashing
 	* Raginsky and Lazebnik, 2009. Locality-Sensitive Binary Codes from Shift-Invariant Kernels. \[[paper](http://papers.nips.cc/paper/3749-locality-sensitive-binary-codes-from-shift-invariant-kernels)\]
 
-### Data-Dependent Method
+## Data-Dependent Method
 
-#### Unsupervised Hashing
+### Unsupervised Hashing
 * Spectral Hashing (SH) \[[paper](http://people.csail.mit.edu/torralba/publications/spectralhashing.pdf)\]\[[code](http://www.cs.huji.ac.il/~yweiss/SpectralHashing/sh.zip)\]
 	* Weiss et al. Spectral Hashing. [*NIPS*], 2008
 * Anchor Graph Hashing (AGH) \[[paper](http://www.ee.columbia.edu/~wliu/ICML11_AGH.pdf)\]\[[code](http://www.ee.columbia.edu/~wliu/)\]
@@ -70,9 +71,9 @@
 * Scalable Graph Hashing (SGH) \[[paper](http://cs.nju.edu.cn/lwj/paper/IJCAI15_SGH.pdf))\]\[[code](http://cs.nju.edu.cn/lwj/code/SGH.rar)\]
 	* Jiang and Li. Scalable Graph Hashing with Feature Transformation [*IJCAI*], 2015
 
-#### Supervised Hashing
+### Supervised Hashing
 
-#### Ranking-based Hashing
+### Ranking-based Hashing
 
 * Hamming Distance Metric Learning (HDML) \[[paper](http://papers.nips.cc/paper/4808-hamming-distance-metric-learning.pdf)\] \[[code](https://github.com/norouzi/hdml)\]
 	* Mohammad Norouzi, David J. Fleet, Ruslan Salakhutdinov. [*NIPS*], 2012
@@ -87,7 +88,7 @@
 * Ranking Preserving Hashing for Fast Similarity Search (RPH) \[[paper](http://ijcai.org/papers15/Papers/IJCAI15-549.pdf)\]
 	* Qifan Wang,  Zhiwei Zhang,Luo Si. [*IJCAI*], 2015	
 
-#### Multimodal Hashing
+### Multimodal Hashing
 * Composite Hashing (CHMIS-AW) \[[paper](https://www.cs.purdue.edu/homes/lsi/SIGIR_2011B.pdf)\]
 	* Zhang et al. Composite Hashing with Multiple Information Sources [*ACM SIGIR*], 2011
 * Cross View Hashing (CVH) \[[paper](http://research.microsoft.com/pubs/151205/ijcai11.pdf)\]
@@ -109,16 +110,16 @@
 * Semantics-Preserving Hashing (SePH) \[[paper](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Lin_Semantics-Preserving_Hashing_for_2015_CVPR_paper.pdf)\]
 	* Lin et al. Semantics-Preserving Hashing for Cross-View Retrieval [*CVPR*], 2015
 	
-#### Deep Hashing
+### Deep Hashing
 
-#### Online Hashing
+### Online Hashing
 
 * Online Hashing (OKH) \[[paper](http://ijcai.org/papers13/Papers/IJCAI13-213.pdf)\]
 	* Huang et al. Online Hashing [*IJCAI*], 2013
 * Online Sketching Hashing (OSH) \[[paper](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Leng_Online_Sketching_Hashing_2015_CVPR_paper.pdf)\]
 	* Leng et al. Online Sketching Hashing [*CVPR*], 2015
 
-#### Quantization
+### Quantization
 
 * Double-Bit Quantization for Hashing (DBQ) \[[paper](http://cs.nju.edu.cn/lwj/paper/AAAI12_DBQ.pdf)\] \[[code](http://cs.nju.edu.cn/lwj/code/DBQ.rar)\]
 	* Weihao Kong, Wu-Jun Li. [*AAAI*], 2012
@@ -129,46 +130,46 @@
 * Hamming Compatible Quantization for Hashing  \[[paper](http://ijcai.org/papers15/Papers/IJCAI15-325.pdf)\] 
 	* Wang et al. Hamming Compatible Quantization for Hashing [*IJCAI*], 2015
 
-## Dataset
+# Dataset
 ---
 
-### MIR-FLICKR 
+## MIR-FLICKR 
 * \[[dataset](http://press.liacs.nl/mirflickr/mirdownload.html)\]
 
-### FLICKR-8k
+## FLICKR-8k
 * \[[dataset]()\]
 
-### FLICKR-25k
+## FLICKR-25k
 * \[[dataset]()\]
 
-### NUS-WIDE  
+## NUS-WIDE  
 * \[[dataset](http://lms.comp.nus.edu.sg/research/NUS-WIDE.htm)\]
 
-### TINY 
+## TINY 
 * \[[dataset](http://groups.csail.mit.edu/vision/TinyImages/)\]
 
-### CIFAR  
+## CIFAR  
 * \[[dataset](https://www.cs.toronto.edu/~kriz/cifar.html)\]
 
-### WIKI
+## WIKI
 * \[[dataset](http://www.svcl.ucsd.edu/projects/crossmodal/)\]
 
-### MNIST
+## MNIST
 * \[[dataset](http://yann.lecun.com/exdb/mnist/)\]
 
-### Labelme
+## Labelme
 * \[[dataset](http://labelme.csail.mit.edu/Release3.0/browserTools/php/dataset.php)\]
 
-### Sun-397
+## Sun-397
 * \[[dataset](http://groups.csail.mit.edu/vision/SUN/)\]
 
-### IAPRTC12
+## IAPRTC12
 * \[[dataset](http://imageclef.org/SIAPRdata)\]
 
-### Imagenet
+## Imagenet
 * \[[dataset](http://www.image-net.org/)\]
 
-### SIFT-1M
+## SIFT-1M
 * \[[dataset]()\]
 
 
