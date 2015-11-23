@@ -6,6 +6,7 @@
  - [Multimodal Hashing](#multimodal-hashing)
  - [Deep Hashing](#deep-hashing)
  - [Quantization](#quantization)
+
 ## Introduction
 ## Unsupervised Hashing
 ## Supervised Hashing
