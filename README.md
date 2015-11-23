@@ -11,7 +11,7 @@
 		- [Online Hashing](#online-hashing)
 		- [Quantization](#quantization)
  - [Dataset](#dataset)
-	 - [MIR-FLICKR](#mirflickr)
+	 - [MIR-FLICKR](#mir-flickr)
 	 - [FLICKR-8k](#flickr-8k)
 	 - [FLICKR-25k](#flickr-25k)
 	 - [NUS-WIDE](#nus-wide)
