@@ -12,17 +12,17 @@
 		- [Quantization](#quantization)
  - [Dataset](#dataset)
 	 - [MIR-FLICKR](#mirflickr)
-	 - [FLICKR-8k](#flickr8k)
-	 - [FLICKR-25k](#flickr25k)
+	 - [FLICKR-8k](#flickr-8k)
+	 - [FLICKR-25k](#flickr-25k)
 	 - [NUS-WIDE](#nus-wide)
 	 - [TINY](#tiny)
 	 - [CIFAR](#cifar)
 	 - [WIKI](#wiki)
 	 - [Labelme](#labelme)
-	 - [Sun-397](#sun397)
+	 - [Sun-397](#sun-397)
 	 - [IAPRTC12](#iaprtc12)
 	 - [Imagenet](#imagenet)
-	 - [SIFT-1M](#sift1m)
+	 - [SIFT-1M](#sift-1m)
 
 ## Introduction
 ---
@@ -135,10 +135,10 @@
 ### MIR-FLICKR 
 * \[[dataset](http://press.liacs.nl/mirflickr/mirdownload.html)\]
 
-### FLICKR-25k
+### FLICKR-8k
 * \[[dataset]()\]
 
-### FLICKR-8k
+### FLICKR-25k
 * \[[dataset]()\]
 
 ### NUS-WIDE  
@@ -157,16 +157,16 @@
 * \[[dataset](http://yann.lecun.com/exdb/mnist/)\]
 
 ### Labelme
-* \[[dataset]()\]
+* \[[dataset](http://labelme.csail.mit.edu/Release3.0/browserTools/php/dataset.php)\]
 
 ### Sun-397
-* \[[dataset]()\]
+* \[[dataset](http://groups.csail.mit.edu/vision/SUN/)\]
 
 ### IAPRTC12
-* \[[dataset]()\]
+* \[[dataset](http://imageclef.org/SIAPRdata)\]
 
 ### Imagenet
-* \[[dataset]()\]
+* \[[dataset](http://www.image-net.org/)\]
 
 ### SIFT-1M
 * \[[dataset]()\]
