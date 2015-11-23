@@ -1,21 +1,21 @@
 # Table of contents
- - [Introduction](#introduction)
+ - [Introduction](#introduction) 
  - [Categories](#categories)	
-	 - [Data-Independent Method](#data-independent-method)
+	 - [Data-Independent Method](#data-independent-method)	 
 	 - [Data-Dependent Method](#data-dependent-method)
- 		- [Unsupervised Hashing](#unsupervised-hashing)
- 		- [Supervised Hashing](#supervised-hashing)
- 		- [Ranking-based Hashing](#ranking-based-hashing)
- 		- [Multimodal Hashing](#multimodal-hashing)
- 		- [Deep Hashing](#deep-hashing)
- 		- [Online Hashing](#online-hashing)
- 		- [Quantization](#quantization)
+		- [Unsupervised Hashing](#unsupervised-hashing)
+		- [Supervised Hashing](#supervised-hashing)
+		- [Ranking-based Hashing](#ranking-based-hashing)
+		- [Multimodal Hashing](#multimodal-hashing)
+		- [Deep Hashing](#deep-hashing)
+		- [Online Hashing](#online-hashing)
+		- [Quantization](#quantization)
  - [Dataset](#dataset)
-	- [MIR-FLICKR-25k](mirflickr25k)
-	- [NUS-WIDE](#nus-wide)
-	- [TINY](#tiny)
-	- [CIFAR](#cifar)
-	- [WIKI](#wiki)
+	 - [MIR-FLICKR](#mirflickr)
+	 - [NUS-WIDE](#nus-wide)
+	 - [TINY](#tiny)
+	 - [CIFAR](#cifar)
+	 - [WIKI](#wiki)
 
 ## Introduction
 ---
@@ -38,6 +38,12 @@
 #### Unsupervised Hashing
 * Spectral Hashing (SH) \[[paper](http://people.csail.mit.edu/torralba/publications/spectralhashing.pdf)\]\[[code](http://www.cs.huji.ac.il/~yweiss/SpectralHashing/sh.zip)\]
 	* Y. Weiss, A. Torralba, and R. Fergus. Spectral Hashing. [*NIPS*], 2008
+* Anchor Graph Hashing (AGH) \[[paper](http://www.ee.columbia.edu/~wliu/ICML11_AGH.pdf)\]\[[code](http://www.ee.columbia.edu/~wliu/)\]
+	* 
+* Iterative Quantization (ITQ) \[[paper](http://www.unc.edu/~yunchao/papers/CVPR11_a.pdf)\]\[[code](http://www.unc.edu/~yunchao/code/smallcode.zip)\] 
+* Discrete Graph Hashing (DGH) \[[paper](http://www.ee.columbia.edu/~wliu/NIPS14_dgh.pdf)\]
+* Scalable Graph Hashing (SGH) \[[paper](http://cs.nju.edu.cn/lwj/paper/IJCAI15_SGH.pdf))\]\[[code](http://cs.nju.edu.cn/lwj/code/SGH.rar)\]
+	* 
 
 #### Supervised Hashing
 
@@ -47,14 +53,14 @@
 
 #### Deep Hashing
 
-### Online Hashing
+#### Online Hashing
 
 #### Quantization
 
 ## Dataset
 ---
 
-### MIR-FLICKR-25k
+### MIR-FLICKR
 
 ### NUS-WIDE 
 
