@@ -1,34 +1,46 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html>
   <head>
-    <meta charset="UTF-8">
-    <title>Learn to Hash by jiangqy</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Learn to Hash</h1>
-      <h2 class="project-tagline"></h2>
-      <a href="https://github.com/jiangqy/Hash-Learning.github.io" class="btn">View on GitHub</a>
-      <a href="https://github.com/jiangqy/Hash-Learning.github.io/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/jiangqy/Hash-Learning.github.io/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
 
-    <section class="main-content">
-      <h1>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Learn to Hash by jiangqy</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Learn to Hash</h1>
+        <h2></h2>
+        <a href="https://github.com/jiangqy/Hash-Learning.github.io" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>
 <a id="table-of-contents" class="anchor" href="#table-of-contents" aria-hidden="true"><span class="octicon octicon-link"></span></a>Table of contents</h1>
 
 <ul>
-<li><a href="#introduction">Introduction</a></li>
+<li>
+<a href="#introduction">Introduction</a> </li>
 <li>
 <a href="#categories">Categories</a><br>
 
 <ul>
-<li><a href="#data-independent-method">Data-Independent Method</a></li>
+<li>
+<a href="#data-independent-method">Data-Independent Method</a><br>
+</li>
 <li>
 <a href="#data-dependent-method">Data-Dependent Method</a>
 
@@ -48,7 +60,7 @@
 <a href="#dataset">Dataset</a>
 
 <ul>
-<li><a href="mirflickr25k">MIR-FLICKR-25k</a></li>
+<li><a href="#mirflickr">MIR-FLICKR</a></li>
 <li><a href="#nus-wide">NUS-WIDE</a></li>
 <li><a href="#tiny">TINY</a></li>
 <li><a href="#cifar">CIFAR</a></li>
@@ -107,6 +119,20 @@
 <li>Y. Weiss, A. Torralba, and R. Fergus. Spectral Hashing. [<em>NIPS</em>], 2008</li>
 </ul>
 </li>
+<li>Anchor Graph Hashing (AGH) [<a href="http://www.ee.columbia.edu/%7Ewliu/ICML11_AGH.pdf">paper</a>][<a href="http://www.ee.columbia.edu/%7Ewliu/">code</a>]
+
+<ul>
+<li>
+</ul>
+</li>
+<li>Iterative Quantization (ITQ) [<a href="http://www.unc.edu/%7Eyunchao/papers/CVPR11_a.pdf">paper</a>][<a href="http://www.unc.edu/%7Eyunchao/code/smallcode.zip">code</a>] </li>
+<li>Discrete Graph Hashing (DGH) [<a href="http://www.ee.columbia.edu/%7Ewliu/NIPS14_dgh.pdf">paper</a>]</li>
+<li>Scalable Graph Hashing (SGH) [<a href="http://cs.nju.edu.cn/lwj/paper/IJCAI15_SGH.pdf">paper</a>)][<a href="http://cs.nju.edu.cn/lwj/code/SGH.rar">code</a>]
+
+<ul>
+<li>
+</ul>
+</li>
 </ul>
 
 <h4>
@@ -121,8 +147,8 @@
 <h4>
 <a id="deep-hashing" class="anchor" href="#deep-hashing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Deep Hashing</h4>
 
-<h3>
-<a id="online-hashing" class="anchor" href="#online-hashing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Online Hashing</h3>
+<h4>
+<a id="online-hashing" class="anchor" href="#online-hashing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Online Hashing</h4>
 
 <h4>
 <a id="quantization" class="anchor" href="#quantization" aria-hidden="true"><span class="octicon octicon-link"></span></a>Quantization</h4>
@@ -133,7 +159,7 @@
 <hr>
 
 <h3>
-<a id="mir-flickr-25k" class="anchor" href="#mir-flickr-25k" aria-hidden="true"><span class="octicon octicon-link"></span></a>MIR-FLICKR-25k</h3>
+<a id="mir-flickr" class="anchor" href="#mir-flickr" aria-hidden="true"><span class="octicon octicon-link"></span></a>MIR-FLICKR</h3>
 
 <h3>
 <a id="nus-wide" class="anchor" href="#nus-wide" aria-hidden="true"><span class="octicon octicon-link"></span></a>NUS-WIDE</h3>
@@ -149,14 +175,24 @@
 
 <h3>
 <a id="mnist" class="anchor" href="#mnist" aria-hidden="true"><span class="octicon octicon-link"></span></a>MNIST</h3>
+        </section>
 
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/jiangqy/Hash-Learning.github.io">Learn to Hash</a> is maintained by <a href="https://github.com/jiangqy">jiangqy</a>.</span>
+        <aside id="sidebar">
+          <a href="https://github.com/jiangqy/Hash-Learning.github.io/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/jiangqy/Hash-Learning.github.io/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
 
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
+          <p class="repo-owner"><a href="https://github.com/jiangqy/Hash-Learning.github.io"></a> is maintained by <a href="https://github.com/jiangqy">jiangqy</a>.</p>
 
-    </section>
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
 
   
   </body>
