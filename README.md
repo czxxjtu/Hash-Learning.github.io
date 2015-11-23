@@ -12,10 +12,17 @@
 		- [Quantization](#quantization)
  - [Dataset](#dataset)
 	 - [MIR-FLICKR](#mirflickr)
+	 - [FLICKR-8k](#flickr8k)
+	 - [FLICKR-25k](#flickr25k)
 	 - [NUS-WIDE](#nus-wide)
 	 - [TINY](#tiny)
 	 - [CIFAR](#cifar)
 	 - [WIKI](#wiki)
+	 - [Labelme](#labelme)
+	 - [Sun-397](#sun397)
+	 - [IAPRTC12](#iaprtc12)
+	 - [Imagenet](#imagenet)
+	 - [SIFT-1M](#sift1m)
 
 ## Introduction
 ---
@@ -101,9 +108,15 @@
 	* Wang et al. Semantic Topic Multimodal Hashing for Cross-Media Retrieval [*IJCAI*], 2015
 * Semantics-Preserving Hashing (SePH) \[[paper](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Lin_Semantics-Preserving_Hashing_for_2015_CVPR_paper.pdf)\]
 	* Lin et al. Semantics-Preserving Hashing for Cross-View Retrieval [*CVPR*], 2015
+	
 #### Deep Hashing
 
 #### Online Hashing
+
+* Online Hashing (OKH) \[[paper](http://ijcai.org/papers13/Papers/IJCAI13-213.pdf)\]
+	* Huang et al. Online Hashing [*IJCAI*], 2013
+* Online Sketching Hashing (OSH) \[[paper](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Leng_Online_Sketching_Hashing_2015_CVPR_paper.pdf)\]
+	* Leng et al. Online Sketching Hashing [*CVPR*], 2015
 
 #### Quantization
 
@@ -114,13 +127,19 @@
 * Variable Bit Quantisation for LSH \[[paper](http://homepages.inf.ed.ac.uk/miles/papers/acl13.pdf)\] 
 	* Sean Moran, Victor Lavrenko,Miles Osborne. [*ACL*], 2013
 * Hamming Compatible Quantization for Hashing  \[[paper](http://ijcai.org/papers15/Papers/IJCAI15-325.pdf)\] 
-	* Sean Moran, Victor Lavrenko,Miles Osborne. [*ACL*], 2013
+	* Wang et al. Hamming Compatible Quantization for Hashing [*IJCAI*], 2015
 
 ## Dataset
 ---
 
 ### MIR-FLICKR 
 * \[[dataset](http://press.liacs.nl/mirflickr/mirdownload.html)\]
+
+### FLICKR-25k
+* \[[dataset]()\]
+
+### FLICKR-8k
+* \[[dataset]()\]
 
 ### NUS-WIDE  
 * \[[dataset](http://lms.comp.nus.edu.sg/research/NUS-WIDE.htm)\]
@@ -136,4 +155,22 @@
 
 ### MNIST
 * \[[dataset](http://yann.lecun.com/exdb/mnist/)\]
+
+### Labelme
+* \[[dataset]()\]
+
+### Sun-397
+* \[[dataset]()\]
+
+### IAPRTC12
+* \[[dataset]()\]
+
+### Imagenet
+* \[[dataset]()\]
+
+### SIFT-1M
+* \[[dataset]()\]
+
+
+
 
