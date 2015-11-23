@@ -119,15 +119,21 @@
 ## Dataset
 ---
 
-### MIR-FLICKR-25k  \[[dataset](http://press.liacs.nl/mirflickr/mirdownload.html)\]
+### MIR-FLICKR 
+* \[[dataset](http://press.liacs.nl/mirflickr/mirdownload.html)\]
 
-### NUS-WIDE  \[[dataset](http://lms.comp.nus.edu.sg/research/NUS-WIDE.htm)\]
+### NUS-WIDE  
+* \[[dataset](http://lms.comp.nus.edu.sg/research/NUS-WIDE.htm)\]
 
-### TINY \[[dataset](http://groups.csail.mit.edu/vision/TinyImages/)\]
+### TINY 
+* \[[dataset](http://groups.csail.mit.edu/vision/TinyImages/)\]
 
-### CIFAR  \[[dataset](https://www.cs.toronto.edu/~kriz/cifar.html)\]
+### CIFAR  
+* \[[dataset](https://www.cs.toronto.edu/~kriz/cifar.html)\]
 
 ### WIKI
+* \[[dataset](http://www.svcl.ucsd.edu/projects/crossmodal/)\]
 
 ### MNIST
+* \[[dataset](http://yann.lecun.com/exdb/mnist/)\]
 
