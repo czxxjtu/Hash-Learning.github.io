@@ -73,12 +73,30 @@
 
 ### Supervised Hashing
 
-* Semi-supervised Hashing (SSH)[[paper]](http://www.ee.columbia.edu/ln/dvmm/publications/10/SSH_CVPR2010.pdf)
-	* Jun Wang, Sanjiv Kumar, and Shih-Fu Chang. Semi-supervised hashing for scalable image retrieval. [*CVPR*], 2010
-* Minimal Loss Hashing (MLH) [[paper]](http://www.cs.toronto.edu/%7Enorouzi/research/papers/min_loss_hash.pdf) [[code]](http://www.cs.toronto.edu/%7Enorouzi/research/mlh/)
-	* Mohammad Norouzi and David M. Blei. Minimal loss hashing for compact binary codes. [*ICML*], 2011
-* Supervised Hashing with Kernels (KSH) [[paper]](http://www.ee.columbia.edu/%7Ewliu/CVPR12_ksh.pdf)[[code]](http://www.ee.columbia.edu/%7Ewliu/ksh_code.zip)
-	* Wei Liu, Jun Wang, Rongrong Ji, Yu-Gang 
+* Semi-supervised hashing for scalable image retrieval (SSH)[[paper]](http://www.ee.columbia.edu/ln/dvmm/publications/10/SSH_CVPR2010.pdf)
+	* Jun Wang, Sanjiv Kumar, and Shih-Fu Chang. [*CVPR*], 2010
+* Minimal loss hashing for compact binary codes (MLH) [[paper]](http://www.cs.toronto.edu/%7Enorouzi/research/papers/min_loss_hash.pdf) [[code]](http://www.cs.toronto.edu/%7Enorouzi/research/mlh/)
+	* Mohammad Norouzi and David M. Blei. [*ICML*], 2011
+* Supervised hashing with kernels (KSH) [[paper]](http://www.ee.columbia.edu/%7Ewliu/CVPR12_ksh.pdf)[[code]](http://www.ee.columbia.edu/%7Ewliu/ksh_code.zip)
+	* Wei Liu, Jun Wang, Rongrong Ji, Yu-Gang Jiang, and Shih-Fu Chang.[*CVPR*], 2012
+* LDAHash: Improved matching with smaller descriptors [[paper]](http://wiki.epfl.ch/edicpublic/documents/Candidacy%20exam/LDAHash.pdf) [[code]](http://cvlab.epfl.ch/research/detect/ldahash)
+	* Christoph Strecha, Alexander M. Bronstein, Michael M. Bronstein, and Pascal Fua. [*TPAMI*], 2012
+* A general two-step approach to learning-based hashing (TSH) [[paper]](http://dx.doi.org/10.1109/ICCV.2013.317) [[code]](https://bitbucket.org/guosheng/two-step-hashing)
+	* Guosheng Lin, Chunhua Shen, David Suter, and Anton van den Hengel.  [*ICCV*], 2013
+* Supervised binary hash code learning with jensen shannon divergence (JSD) [[paper]](http://www.cv-foundation.org/openaccess/content_iccv_2013/papers/Fan_Supervised_Binary_Hash_2013_ICCV_paper.pdf)
+	* Lixin Fan. [*ICCV*], 2013
+* The power of asymmetry in binary hashing (ASH) [[paper]](http://ttic.uchicago.edu/~yury/papers/nips2013_asym.pdf) [[code]](http://ttic.uchicago.edu/~bneyshabur/papers/asymmetric_codes_v1.0.tar)
+	* Behnam Neyshabur, Nati Srebro, Ruslan R. Salakhutdinov, Yury Makarychev, and Payman Yadollahpour. [*NIPS*], 2012
+* Graph cuts for supervised binary coding (GCC) [[paper]](http://research.microsoft.com/en-us/um/people/kahe/publications/eccv14gcc.pdf)
+	* Tiezheng Ge, Kaiming He, and Jian Sun. [*ECCV*], 2014
+* Fast supervised hashing with decision trees for high-dimensional data [[paper]](https://bitbucket.org/chhshen/fasthash/src) [[code]](https://bitbucket.org/chhshen/fasthash/)
+	* Guosheng Lin, Chunhua Shen, Qinfeng Shi, Anton van den Hengel, and David Suter. [*CVPR*], 2014
+* Supervised hashing with latent factor models (LFH) [[paper]](http://cs.nju.edu.cn/lwj/paper/SIGIR14_LFH.pdf) [[code]](http://cs.nju.edu.cn/lwj/code/LFH.rar)
+	* Peichao Zhang, Wei Zhang, Wu-Jun Li, and Minyi Guo. [*SIGIR*], 2014
+* Supervised Discrete Hashing (SDH) [[paper]](http://bmc.uestc.edu.cn/~fshen/SDH.pdf) [[code]](https://github.com/bd622/DiscretHashing)
+	* Fumin Shen, Chunhua Shen, Wei Liu, and Heng Tao Shen. Supervised Discrete Hashing. [*CVPR*], 2015
+* COSDISH
+	* Wang-Cheng Kang, Wu-Jun Li and Zhi-Hua Zhou. Column sampling based discrete supervised hashing. [*AAAI*], 2016
 
 ### Ranking-based Hashing
 
