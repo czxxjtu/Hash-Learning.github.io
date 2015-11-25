@@ -97,25 +97,25 @@
 
 ### Multimodal Hashing
 * Composite Hashing with Multiple Information Sources (CHMIS-AW) \[[paper](https://www.cs.purdue.edu/homes/lsi/SIGIR_2011B.pdf)\]
-	* Zhang et al. [*ACM SIGIR*], 2011
+	* Dan Zhang, Fei Wang, Luo Si. [*ACM SIGIR*], 2011
 * Learning hash functions for cross-view similarity search (CVH) \[[paper](http://research.microsoft.com/pubs/151205/ijcai11.pdf)\]
-	* Kumar and Udupa. [*IJCAI*], 2011
+	* Shaishav Kumar and Raghavendra Udupa. [*IJCAI*], 2011
 * Co-Regularized Hashing for Multimodal Data (CRH) \[[paper](http://papers.nips.cc/paper/4793-co-regularized-hashing-for-multimodal-data.pdf)\]
-	* Zhen and Yeung. [*NIPS*], 2012
+	* Yi Zhen and Dit-Yan Yeung. [*NIPS*], 2012
 * Inter-Media Hashing for Large-Scale Retrieval from Heterogeneous Data Sources (IMH) \[[paper](http://dl.acm.org/citation.cfm?id=2465274)\]
-	* Song et al.. [*SIGMOD*], 2013
+	* Jingkuan Song, Yang Yang, Yi Yang, Zi Huang and Heng Tao Shen. [*SIGMOD*], 2013
 * Comparing apples to oranges: a scalable solution with heterogeneous hashing (RaHH) \[[paper](http://media.cs.tsinghua.edu.cn/~multimedia/cuipeng/papers/HeterogeneousHashing.pdf)\] 
-	* Ou et al. [*KDD*], 2013
+	* Mingdong Ou, Peng Cui, Fei Wang, Jun Wang, Wenwu Zhu, Shiqiang Yang. [*KDD*], 2013
 * Large-scale supervised multimodal hashing with semantic correlation maximization (SCM) \[[paper](http://cs.nju.edu.cn/lwj/paper/AAAI14_SCM.pdf)\]\[[code](http://cs.nju.edu.cn/lwj/code/SCMHash_Release.zip)\]
-	* Zhang and Li. [*AAAI*], 2014
-* Collective Matrix Factorization Hashing for Multimodal data (CMFH) \[[paper](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6909664&tag=1)\]
-	* Ding et al.[*CVPR*], 2014
-* Quantized correlation hashing for fast cross-modal search  (QCH) \[[paper](http://ijcai.org/papers15/Papers/IJCAI15-554.pdf)\]
-	* Wu et al.[*IJCAI*], 2015
-* Semantic Topic Multimodal Hashing for Cross-Media Retrieval  (STMH) \[[paper](http://ijcai.org/papers15/Papers/IJCAI15-546.pdf)\]
+	* Dongqing Zhang and Wu-Jun Li. [*AAAI*], 2014
+* Collective Matrix Factorization Hashing for Multimodal data (CMFH) \[[paper](http://ise.thss.tsinghua.edu.cn/MIG/CVPR2014%20Collective%20Matrix%20Factorization%20Hashing%20for%20Multimodal%20Data.pdf)\]
+	* Guiguang Ding, Yuchen Guo and Jile Zhou.[*CVPR*], 2014
+* Quantized correlation hashing for fast cross-modal search (QCH) \[[paper](http://ijcai.org/papers15/Papers/IJCAI15-554.pdf)\]
+	* Botong Wu, Qiang Yang, Wei-Shi Zheng, Yizhou Wang and Jingdong Wang.[*IJCAI*], 2015
+* Semantic Topic Multimodal Hashing for Cross-Media Retrieval (STMH) \[[paper](http://ijcai.org/papers15/Papers/IJCAI15-546.pdf)\]
 	* Wang et al.[*IJCAI*], 2015
 * Semantics-Preserving Hashing for Cross-View Retrieval  (SePH) \[[paper](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Lin_Semantics-Preserving_Hashing_for_2015_CVPR_paper.pdf)\]
-	* Lin et al.[*CVPR*], 2015
+	* Zijia Lin, Guiguang Ding, Mingqing Hu and Jianmin Wang. [*CVPR*], 2015
 	
 ### Deep Hashing
 * Supervised Hashing via Image Representation Learning(CNNH) \[[paper](http://ss.sysu.edu.cn/~py/papers/AAAI-CNNH.pdf)\]\[[code](http://ss.sysu.edu.cn/~py/CNNH/cnnh.html)\]\[[slide](http://ss.sysu.edu.cn/~py/CNNH-slides.pdf)]
