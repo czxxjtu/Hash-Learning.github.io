@@ -136,9 +136,9 @@
 ### Online Hashing
 
 * Online Hashing (OKH) \[[paper](http://ijcai.org/papers13/Papers/IJCAI13-213.pdf)\]
-	* Huang et al. [*IJCAI*], 2013
+	* Long-kai Huang, Qiang Yang and Wei-Shi Zheng. [*IJCAI*], 2013
 * Online Sketching Hashing (OSH) \[[paper](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Leng_Online_Sketching_Hashing_2015_CVPR_paper.pdf)\]
-	* Leng et al. [*CVPR*], 2015
+	* Cong Leng, Jiaxiang Wu, Jian Cheng, Xiao Bai and Hangqing Lu. [*CVPR*], 2015
 
 ### Quantization
 
